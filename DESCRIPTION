@@ -15,3 +15,5 @@ Suggests: testthat,
 Imports: dplyr,
     stats
 VignetteBuilder: knitr
+URL: https://github.com/myuen89/reorderv2
+BugReports: https://github.com/myuen89/reorderv2/issues
