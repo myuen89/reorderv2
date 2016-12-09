@@ -1,0 +1,41 @@
+---
+title: "ReorderV2: Ordering factor levels in descending order"
+author: "Michael Yuen"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+## Description: 
+Graphing factors tend to be messy, since they are usually misaligned. Reorder is a function used to order factors in ascending order. Reorderv2 is a package which will order factors in descending order.
+
+### License: 
+MIT + file LICENSE
+
+### Suggests: 
+* testthat
+* knitr
+* rmarkdown
+
+### Imports: 
+* dplyr
+* stats
+
+### Examples:
+```{r}
+library(dplyr)
+library(reorderv2)
+
+x <- factor(c('leopard', 'kilo', 'gryphon', 'foxtrot'))
+y <- factor(c('foxtrot', 'gryphon', 'kilo', 'leopard'))
+z <- c("hello", "blue", "cake", "wall")
+
+reorder_desc(x)
+as.character(y)
+reorder_desc(z)
+```
+
+
+
