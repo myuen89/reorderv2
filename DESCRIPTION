@@ -1,9 +1,11 @@
 Package: reorderv2
-Title: What the Package Does (one line, title case)
+Title: Reorder factors in decreasing order
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.3.2)
-License: What license is it under?
+Authors@R: person("Michael", "Yuen", email = "myuen@bccrc.ca", role = c("aut", "cre"))
+Description: Graphing factors tend to be messy, since they are usually misaligned. Reorder is a function used to order factors in ascending order. Reorderv2 is a package which will order factors in descending order.
+Depends:
+    R (>= 3.3.2)
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 5.0.1
