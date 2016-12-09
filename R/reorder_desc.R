@@ -10,7 +10,6 @@ d <- factor(c("hello", "blue", "cake", "wall"))
 #' @return factor
 #' @export
 #' @examples
-#' #' d <- factor(c("hello", "blue", "cake", "wall"))
 #' #' reorder_desc(d)
 
 reorder_desc <- function(d){
