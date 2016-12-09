@@ -1,0 +1,40 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+**NOTE: This is a toy package created for expository purposes. It is not meant to actually be useful. If you want a package for factor handling, please see [forcats](https://cran.r-project.org/package=forcats).**
+
+## Reorderv2
+Graphing factors tend to be messy, since they are usually misaligned. Reorder is a function used to order factors in ascending order. Reorderv2 is a package which will order factors in descending order.
+
+### Installation
+```{r}
+devtools::install_github("myuen89/reorderv2")
+```
+
+### Quick demo
+Reordering factor levels in descending order. Will not work if input is not of class factor 
+```{r}
+library(dplyr)
+library(reorderv2)
+
+x <- factor(c('leopard', 'kilo', 'gryphon', 'foxtrot'))
+y <- factor(c('foxtrot', 'gryphon', 'kilo', 'leopard'))
+z <- c("hello", "blue", "cake", "wall")
+
+reorder_desc(x)
+as.character(y)
+reorder_desc(z)
+```
+
+
