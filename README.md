@@ -51,4 +51,4 @@ reorder_desc(z)
 #> Error. Input is not of class factors, it is of class character
 ```
 ### Reflections
-I follows the steps in the [stat545 website](http://stat545.com/cm110_packages.html) and it is extremely helpful. But to be honest I still don't really understand what is happending under the hood that makes it all happen. All I know is that it works. I suppse if I were to every design a package in the future I can just follows the guidlines set out above, but I expect that any errors would be difficult to solve. 
+I follows the steps in the [stat545 website](http://stat545.com/cm110_packages.html) and it is extremely helpful. But to be honest I still don't really understand what is happending under the hood that makes it all happen. All I know is that it works. I suppse if I were to ever design a package in the future I can just follows the guidlines set out above, but I expect that any errors would be difficult to solve. 
